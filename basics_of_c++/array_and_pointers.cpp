@@ -13,6 +13,6 @@ int main()
     cout<< ptr1 <<"\n"<< ptr2<< endl;
     for(int i=0; i<5; i++)
     {
-        cout<< num_arr[i]<< " ";
+        cout<< num_arr[i]<< num_arr+i<<endl;
     }
 }
